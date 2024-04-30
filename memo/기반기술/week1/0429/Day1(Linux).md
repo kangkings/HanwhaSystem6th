@@ -214,6 +214,17 @@ VMware 기준 과정
 	아규먼트: 조건에 맞는 값
 	행동: 결과 처리 어떻게?
 
+##### 서비스 관리
+	systemctl start [서비스 프로그램 이름]
+	systemctl restart [서비스 프로그램 이름]
+	systemctl stop [서비스 프로그램 이름]
+	systemctl status [서비스 프로그램 이름]
+
+##### 기타 명령어
+    netstat -anlp: 네트워크 상태 확인
+    setenforce 0: 로컬 방화벽 off
+    systemctl stop firewalld: 네트워크 방화벽 off
+
 ---
 ## 기타 tip
 
